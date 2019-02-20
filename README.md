@@ -1,4 +1,4 @@
-# opentool
+# Open-Tool
 Open Windows standard folders with one click.
 Works on all Windows versions (up to Windows 10).
 
