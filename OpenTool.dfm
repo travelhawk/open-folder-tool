@@ -1,0 +1,171 @@
+object Form1: TForm1
+  Left = 348
+  Top = 171
+  BorderStyle = bsSingle
+  Caption = 'Open-Tool'
+  ClientHeight = 299
+  ClientWidth = 290
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  Visible = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 16
+    Top = 16
+    Width = 131
+    Height = 24
+    Caption = 'Ordner '#246'ffnen'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 16
+    Top = 48
+    Width = 75
+    Height = 25
+    Caption = 'Desktop'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 16
+    Top = 80
+    Width = 75
+    Height = 25
+    Caption = 'Arbeitsplatz'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 16
+    Top = 112
+    Width = 97
+    Height = 25
+    Caption = 'Systemsteuerung'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 16
+    Top = 144
+    Width = 105
+    Height = 25
+    Caption = 'Netzwerkumgebung'
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 16
+    Top = 240
+    Width = 75
+    Height = 25
+    Caption = 'Drucker'
+    TabOrder = 4
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 152
+    Top = 144
+    Width = 89
+    Height = 25
+    Caption = 'Autostart-Ordner'
+    TabOrder = 5
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 152
+    Top = 208
+    Width = 75
+    Height = 25
+    Caption = 'Recent'
+    TabOrder = 6
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Left = 152
+    Top = 240
+    Width = 89
+    Height = 25
+    Caption = 'SendTo-Ordner'
+    TabOrder = 7
+    OnClick = Button8Click
+  end
+  object Button9: TButton
+    Left = 16
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = 'Papierkorb'
+    TabOrder = 8
+    OnClick = Button9Click
+  end
+  object Button10: TButton
+    Left = 16
+    Top = 208
+    Width = 75
+    Height = 25
+    Caption = 'Startmenu'
+    TabOrder = 9
+    OnClick = Button10Click
+  end
+  object Button11: TButton
+    Left = 152
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = 'Fonts'
+    TabOrder = 10
+    OnClick = Button11Click
+  end
+  object Button12: TButton
+    Left = 152
+    Top = 48
+    Width = 75
+    Height = 25
+    Caption = 'Vorlagen'
+    TabOrder = 11
+    OnClick = Button12Click
+  end
+  object Button13: TButton
+    Left = 152
+    Top = 80
+    Width = 75
+    Height = 25
+    Caption = 'Cookies'
+    TabOrder = 12
+    OnClick = Button13Click
+  end
+  object Button14: TButton
+    Left = 152
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = 'Verlauf'
+    TabOrder = 13
+    OnClick = Button14Click
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 280
+    Width = 290
+    Height = 19
+    Panels = <>
+    SimplePanel = True
+    SimpleText = 'Copyright: Michael Falk'
+  end
+  object XPManifest1: TXPManifest
+    Left = 256
+    Top = 248
+  end
+end
