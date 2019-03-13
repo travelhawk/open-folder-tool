@@ -6,4 +6,4 @@ Works on all Windows versions (up to Windows 10).
 
 Written in Object Pascal with Delphi7.
 
-Created by Michael Falk 2017
+Created by Michael Falk 2007
